@@ -17,8 +17,9 @@
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/publications/datasynchronizationpatent/</guid>
-      <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
- Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
+      <description>This patent was developed in order to address the problem of trying to synchronize two simultaneous data streams that relied on different clocks. The contraints under which this methodology were developed involved the process to be completeley offline to not involve establishing a new connection between the data collection devices.
+The final solution had several aspects to it:
+ A testing system to determine the level to which the two devices are out of sync A calculation methodology for using the information from the test to quantify the difference A consideration for variable rates and drift in both of the devices.</description>
     </item>
     
     <item>
