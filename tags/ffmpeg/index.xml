@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Vineeth Voruganti</title>
-    <link>/</link>
-    <description>Recent content in Home on Vineeth Voruganti</description>
+    <title>ffmpeg on Vineeth Voruganti</title>
+    <link>/tags/ffmpeg/</link>
+    <description>Recent content in ffmpeg on Vineeth Voruganti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>/publications/datasynchronizationpatent/</guid>
       <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
  Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
-    </item>
-    
-    <item>
-      <title>SmartEvac</title>
-      <link>/projects/creations/smartevac/</link>
-      <pubDate>Sun, 07 Jul 2019 17:10:17 -0400</pubDate>
-      
-      <guid>/projects/creations/smartevac/</guid>
-      <description>Smart evacuation management. In many schools or office buildings the evacuation plans always generally follow the same structure in each drill. This tool allows for dynamic management of emergencies in the event of a crisis. The plan can adapt to the location of danger within the building and the location of each individual participant.</description>
     </item>
     
   </channel>
