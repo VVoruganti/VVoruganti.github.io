@@ -17,6 +17,22 @@ that will generate the post files from markdown.
 
 Could also give it a notion type aesthetic. Very minimalistic
 
+About Me
+
+Hi my name is Vineeth Voruganti. I am currently an undergraduate student the Georgia
+Institute of technology, studying Electrical Engineering. 
+
+I love working on personal projects, making games, traveling, and reading. 
+
+feel free to contact me if you want to work together, hire me, or just recommend a good book
+
+Contact Info
+
+vvoruganti@gatech.edu
+linkedin.com/in/vineethvoruganti
+github.com/VVoruganti
+
+
 ### Blog
 
 Should be designed based on notion.so like a notion page is a blog post 
