@@ -39,13 +39,44 @@ nav > p {
     background-color:#E5E5E5;
     margin-bottom: 5px;
     display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .post-left {
-    vertical-align:middle;
     height:100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:40%;
 }
 
 .post-left > h2 {
     line-height:50px;
+    padding-left:10px;
+}
+
+.post-right {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    padding-right:10px;
+    width:60%;
+}
+
+.tags {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin-right:10px;
+}
+
+.tags > p {
+    background-color:red;
+    border-radius:25%;
+    margin-left:5px;
+    padding:5px 5px;
 }
