@@ -10,6 +10,8 @@ that will generate the post files from markdown.
 - [ ] Redesign Website using figma or something
 - [ ] Think of blogs posts to make
 - [ ] SEO optimization
+- [ ] Use Gatsby
+- [ ] Make this into a submodule
 
 ## Design
 
