@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Navbar from "../components/navbar.js"
 import styles from "../styles/index.css"
 
+// TODO need to use gatsby to pull in all of the blog posts from markdown files
 
 
 export default () => (
