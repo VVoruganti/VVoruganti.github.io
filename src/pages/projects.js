@@ -1,13 +1,8 @@
 import React from "react"
+import Navbar from "../components/navbar.js"
 
-class Projects extends React.Component {
-    render () {
-        return (
-            <div className="projects">
-                
-            </div>
-        );
-    }
-}
-
-export default () => Projects;
+export default () => (
+    <div>
+        <Navbar />
+    </div>
+);

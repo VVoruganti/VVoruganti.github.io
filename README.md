@@ -97,3 +97,11 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+// Good page about how to style links and make a navbar
+https://snopkowski.com/blog/gatsby-navigation-styled-components
+
+TODO 
+
+- [ ] Squash commits from previous edits as a public service
+- [ ] finish individual components
