@@ -5,6 +5,18 @@
  */
 
 module.exports = {
-  /* Your site config here */
-    plugins: [`gatsby-plugin-styled-componenets`],
+    siteMetadata: {
+        title: `Vineeth Voruganti`,
+    },
+    plugins: [
+        `gatsby-plugin-styled-components`,
+        `gatsby-transformer-remark`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `posts`,
+                path: `${__dirname}/src/posts/`
+            }
+        }
+    ],
 }

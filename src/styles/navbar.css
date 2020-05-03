@@ -12,14 +12,14 @@ nav {
     justify-content:row;
 }
 
-#navLeft > p {
+#navLeft > a {
     padding-left:5%;
 }
 
 #navRight {
     display:flex;
     width:50%;
-    justify-content:end; 
+    justify-content:flex-end;
     padding-right:25px;
 }
 

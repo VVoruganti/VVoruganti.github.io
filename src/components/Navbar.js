@@ -3,6 +3,10 @@ import { Link } from "gatsby";
 import styles from "../styles/navbar.css";
 import styled from "styled-components";
 
+const Brand = styled(Link)`
+    text-decoration:none;
+
+`
 
 const PageLink = styled(Link)`
     text-decoration:none;
@@ -16,7 +20,7 @@ class Navbar extends React.Component {
         return (
             <nav>
                 <div id={"navLeft"}>
-                    <p>Vineeth Voruganti</p>
+                    <Brand to="/">Vineeth Voruganti</Brand>
                 </div>
                 <div id={"navRight"}>
                     <PageLink to="/">Blog </PageLink> 

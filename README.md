@@ -101,7 +101,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 // Good page about how to style links and make a navbar
 https://snopkowski.com/blog/gatsby-navigation-styled-components
 
-TODO 
+## TODO
 
 - [ ] Squash commits from previous edits as a public service
 - [ ] finish individual components
+- [x] about page
+- [ ] blog
+- [ ] projects page
+- [ ] fix all TODO statements
+- [ ] Style for blog post page
