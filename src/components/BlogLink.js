@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "../styles/blog-link.css"
+import styles from "../styles/blog-link.module.css"
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -19,17 +19,17 @@ class BlogLink extends React.Component {
             "Python": "#EC5F67",
             "DevOps":"#F99157"
         }
-        const tags = this.props.tags.map(tag => (<p className="tag" style={{backgroundColor: tagMap[tag]}}> {tag}</p>));
+        const tags = this.props.tags.map(tag => (<p className={styles.tag} style={{backgroundColor: tagMap[tag]}}> {tag}</p>));
         return (
-            <div className="post">
-               <div className="left-post">
+            <div className={styles.post}>
+               <div className={styles.leftPost}>
                   <PageLink to={this.props.to}>{this.props.postTitle}</PageLink> 
                </div>
-               <div className="right-post"> 
-                  <div className="tags">
+               <div className={styles.rightPost}> 
+                  <div className={styles.tags}>
                     {tags}
                   </div>
-                  <p className="post-date">{this.props.date}</p>
+                  <p className={styles.postDate}>{this.props.date}</p>
                 </div>
             </div>
         )

@@ -13,8 +13,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-// FIXME https://www.gatsbyjs.org/tutorial/part-seven/
-
 exports.createPages = async ({graphql, actions}) => {
     const { createPage } = actions
     const result = await graphql(`

@@ -1,4 +1,4 @@
-nav {
+.nav {
     height:35px;
     display:flex;
     flex-direction:row;
@@ -6,24 +6,24 @@ nav {
     font-size:1.2em;
 }
 
-#navLeft {
+.navLeft {
     display:flex;
     width:50%;
     justify-content:row;
 }
 
-#navLeft > a {
+.navLeft > a {
     padding-left:5%;
 }
 
-#navRight {
+.navRight {
     display:flex;
     width:50%;
     justify-content:flex-end;
     padding-right:25px;
 }
 
-#navRight > a {
+.navRight > a {
     padding-left:5px;
     padding-right:5px;
 }

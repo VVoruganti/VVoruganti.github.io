@@ -22,6 +22,9 @@ h2 {
 code {
     color:#eb5757;
     background-color:rgba(135, 131, 120, 0.15);
+    padding: 0.2em 0.4em;
+    line-height:regular;
+    font-size: 85%;
 }
 
 a {

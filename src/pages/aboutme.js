@@ -1,27 +1,28 @@
 import React from "react";
 import Navbar from "../components/Navbar.js";
-import styles from "../styles/about.css"
+import styles from "../styles/about.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import SEO from "../components/seo" 
 
 library.add(fab, faEnvelope)
 
-// TODO add links to projects
 
 export default () => (
 <div>
+    <SEO />
     <Navbar />
-    <div id="main">
+    <div className={styles.main}>
         <h1>About me</h1>
-        <div id="contact-card">
+        <div className={styles.contactCard}>
             <img src="/square-headshot.jpg" alt="me"></img>
             <ul>
-                <li><a target="_blank" href="mailto:vvoruganti@gatech.edu"><FontAwesomeIcon icon="envelope" /> vvoruganti@gatech.edu</a></li>
-                <li><a target="_blank" href="https://www.github.com/VVoruganti"><FontAwesomeIcon icon={['fab', 'github']} /> @VVoruganti</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/vineethvoruganti/"><FontAwesomeIcon icon={['fab' ,'linkedin']} /> in/vineethvoruganti</a></li>
-                <li><a target="_blank" href="https://twitter.com/vvoruganti42"><FontAwesomeIcon icon={['fab' ,'twitter']} /> @VVoruganti42</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="mailto:vvoruganti@gatech.edu"><FontAwesomeIcon icon="envelope" /> vvoruganti@gatech.edu</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.github.com/VVoruganti"><FontAwesomeIcon icon={['fab', 'github']} /> @VVoruganti</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vineethvoruganti/"><FontAwesomeIcon icon={['fab' ,'linkedin']} /> in/vineethvoruganti</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vvoruganti42"><FontAwesomeIcon icon={['fab' ,'twitter']} /> @VVoruganti42</a></li>
             </ul>
         </div>
         <p>
@@ -36,9 +37,9 @@ export default () => (
         </p>
         <h2>Projects</h2>
         <ul>
-            <li>Cosine</li>
-            <li>Repo Link Tester </li>
-            <li>Save States</li>
+            <li><a href="https://github.com/arnavgrg/Cosine">Cosine</a> - don't sign contracts alone</li>
+            <li><a href="https://github.com/VVoruganti/repo-link-tester">Repo Link Tester</a> - utility for auditing large repos</li>
+            <li><a href="https://github.com/VVoruganti/savestates">Save States</a> stores browser sessions for the future</li>
         </ul>
         <h2>Publications</h2>
         <ul>

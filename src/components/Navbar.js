@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import styles from "../styles/navbar.css";
+import styles from "../styles/navbar.module.css";
 import styled from "styled-components";
 
 const Brand = styled(Link)`
@@ -18,14 +18,13 @@ const PageLink = styled(Link)`
 class Navbar extends React.Component {
     render() {
         return (
-            <nav>
-                <div id={"navLeft"}>
+            <nav className={styles.nav}>
+                <div className={styles.navLeft}>
                     <Brand to="/">Vineeth Voruganti</Brand>
                 </div>
-                <div id={"navRight"}>
+                <div className={styles.navRight}>
                     <PageLink to="/">Blog </PageLink> 
                     <PageLink to="/aboutme">About Me </PageLink> 
-                    <PageLink to="/projects">Projects </PageLink> 
                 </div>
             </nav>
         ) 

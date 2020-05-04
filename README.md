@@ -110,3 +110,4 @@ https://snopkowski.com/blog/gatsby-navigation-styled-components
 - [ ] projects page
 - [ ] fix all TODO statements
 - [ ] Style for blog post page
+- [ ] Switch to useing css modules
