@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styles from "../styles/post.module.css";
 import Navbar from "../components/Navbar"
 import SEO from "./seo"
+import Img from "gatsby-image"
 
 export default ({ data }) => {
     const post = data.markdownRemark

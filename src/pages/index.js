@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar.js";
 import styles from "../styles/index.module.css";
 import BlogLink from "../components/BlogLink.js";
 import { graphql } from "gatsby"; 
-import SEO from "../components/seo"
+import SEO from "../components/seo";
+import { Helmet } from "react-helmet";
 // https://presstige.io/populartoday            
 
 
@@ -15,6 +16,11 @@ export default ({ data }) => {
     return (
     <div>
         <SEO />
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Vineeth Voruganti</title>
+            <link rel="canonical" href="https://www.vineeth.io" />
+        </Helmet>
         <Navbar />
         <div className={styles.main}>
             <h1>Some of My Thoughts</h1> 

@@ -19,15 +19,31 @@ h2 {
     font-weight: 600;
 }
 
+
+pre {
+    color:#eb5757;
+    background-color:rgba(135, 131, 120, 0.15);
+    padding: 0.2em 0.4em;
+}
+
+pre > code {
+    background-color:transparent;
+    padding:0;
+}
+
 code {
     color:#eb5757;
     background-color:rgba(135, 131, 120, 0.15);
     padding: 0.2em 0.4em;
     line-height:regular;
-    font-size: 85%;
 }
 
 a {
     text-decoration: underline;
     color:inherit;
+}
+
+blockquote {
+    padding: 0 1em;
+    border-left: .25em solid #dfe2e5;
 }

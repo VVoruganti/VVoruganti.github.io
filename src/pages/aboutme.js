@@ -6,12 +6,18 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import SEO from "../components/seo" 
+import { Helmet } from "react-helmet"
 
 library.add(fab, faEnvelope)
 
 
 export default () => (
 <div>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Vineeth Voruganti</title>
+        <link rel="canonical" href="https://www.vineeth.io/aboutme" />
+    </Helmet>
     <SEO />
     <Navbar />
     <div className={styles.main}>

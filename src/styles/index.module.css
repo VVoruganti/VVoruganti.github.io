@@ -1,12 +1,19 @@
 .main  {
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    max-width: 900px;
     flex-grow: 1;
 }
 
 @media only screen and (min-width:1024px) {
     .main {
         font-size:120%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
