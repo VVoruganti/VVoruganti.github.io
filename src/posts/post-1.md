@@ -1,5 +1,5 @@
 ---
-title: "Löve2D on WSL"
+title: "💜Löve2D on WSL"
 date: "05/04/2020"
 tags: ["Games", "WSL"]
 ---
@@ -19,7 +19,8 @@ installer. In my case I clicked on the *64-bit installer.*
 
 I followed the installer so that the application was installed on the system. You
 can test that this is working by typing "love" into the windows search bar and
-clicking on the application. A stock GIF should pop up in the love game window.
+clicking on the application. A stock GIF of a ballon 🎈 should pop up in the love 
+game window.
 
 ![Windows Environment Variables](../images/environment-variables-popup.png)
 
@@ -67,5 +68,6 @@ $ source ~/.bashrc
 If you are using a different shell or would prefer to put your aliases somewhere
 else you can write it in manually.
 
-Now you should be able to simply type `love` in your terminal to run love2d.
+Now you should be able to simply type `love` in your terminal to run love2d. You are
+ready to develop and prototype your own games 🎮
 
