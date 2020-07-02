@@ -5,15 +5,15 @@ tags: ["WSL"]
 ---
 
 I am currently using a Surface Book as my main laptop for everyday work and development.
-Initially when I was setting up Linux as a dual boot I found that I was not a
-fan of the drastic performance and battery life cut that I would have to commit to.
-So I took it upon myself to try and optimize my development environment on Windows
-itself.
+Initially, when I was setting up Linux as a dual boot I found that I was not a
+fan of the drastic cut to performance and battery life I would have to commit to.
+So, I took it upon myself to try and optimize my development environment on Windows,
+despite it being less than ideal.
 
 The first thing I did was set up Windows Subsystem Linux (WSL). This is basically
 a utility that was built by microsoft that lets you run a terminal with a full linux
 kernel while still in Windows. It sort of operates like a virtual machine, but
-you can access both your linux and regular windows file system from within it.
+you can access both your Linux and regular Windows file system from within it.
 There are two versions of this and which one you want to use will very depending
 on your needs
 
@@ -22,7 +22,7 @@ messing with your Windows filesystem, while WSL 2 is the newer one and has bette
 performance in the linux file system.
 
 I figured I would probably be staying within the linux file system so I opted to
-use WSL 2. Now at the time of writing this WSL 2 was only available if you used
+use WSL 2. Now, at the time of writing this, WSL 2 was only available if you used
 the Windows Insider Build of Windows 10. I also chose to use the Ubuntu version
 of WSL, but you can choose whichever one you like.
 
@@ -35,8 +35,8 @@ use that was fast and customizable. Initially, I was between
 ConEMU seems to be the more feature rich application but I found the support for
 color customization to be quite lackluster as the color schemes I tried were not
 working. Also I found performance with apps like VIM were quite slow. **Alacritty**
-is great because it was built with performance in mind. It used the graphics card
-in my computer to increase speed.
+is great because it was built with performance in mind and messing with colors
+was really straight forward. 
 
 I installed it using chocolatey
 
@@ -84,10 +84,10 @@ called [VcXsrv](https://sourceforge.net/projects/vcxsrv/).
 
 Now in order to set it up to work with my WSL I needed to set the following
 variable in my `.bashrc`. Just make sure to substitute in your own ip address.
-you can find it in the terminal by command prompt with `ipconfig`
+you can find it in the command prompt with `ipconfig`
 
 **NOTE** the ip address given if you run `ifconfig` in WSL is different than your
-actual IP address so make sure you use command prompt.
+actual IP address, so make sure you use command *prompt*.
 
 ```bash
 export DISPLAY:{MY IP ADDRESS}:0.0
@@ -113,10 +113,9 @@ sudo apt-get xfce-session
 then once the server is running just run `xfce-session` in the terminal
 
 **NOTE** This is a notable difference between WSL 1 and 2. I don't think you
-follow the same steps with WSL 2
+follow the same steps with WSL 1
 
-Once I had that set I was able to run things like XFCE from within windows.
-from here I could install
+Once I had that setup, I was able to run things like XFCE from within windows.
 
 ## Running Windows Applications
 
@@ -125,7 +124,8 @@ run windows .exe programs from within WSL. You can try this out by typing
 `explorer.exe .` This is a handy trick to open a file explorer in your WSL partition.
 
 Also handy if you want to run a windows program on files in WSL without manually
-moving them to Windows.
+moving them to Windows. I used to this trick to develop Löve2D games from WSL
+and launch them from Windows.
 
 If you want to see more of my own environment you can checkout my
 [dotfiles](https://github.com/VVoruganti/dotfiles) on my github page
