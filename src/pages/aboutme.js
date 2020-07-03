@@ -32,26 +32,15 @@ export default () => (
             </ul>
         </div>
         <p>
-            Hi, my name is Vineeth Voruganti. I am currently an underraduate student at the Georgia
+            Hi, my name is Vineeth Voruganti. I am currently an undergraduate student at the Georgia
             Institute of Technology, studying Electrical Engineering.
         </p>
         <p>
             I love working on personal projects, making games, traveling, and reading.
         </p>
         <p>
-            feel free to contact me if you want to work together, hire me, or just recommend a game to play
+            Feel free to contact me if you want to work together, talk, or have some cool game recommendations!
         </p>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/arnavgrg/Cosine">Cosine</a> - don't sign contracts alone</li>
-            <li><a href="https://github.com/VVoruganti/repo-link-tester">Repo Link Tester</a> - utility for auditing large repos</li>
-            <li><a href="https://github.com/VVoruganti/savestates">Save States</a> stores browser sessions for the future</li>
-        </ul>
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="https://patents.google.com/patent/US10284752B1">Method for determining a start offset between a video recording device and an inertial measurement unit for use in synchronizing motion data of an object collected by the inertial measurement unit attached to the object with video frames captured by an image sensor of the video recording device of the object in motion</a></li>
-            <li><a href="https://patents.google.com/patent/US10469750B1">Method for embedding motion data of an object into a video file to allow for synchronized visualization of the motion data upon playback of the video file</a></li>
-        </ul>
     </div>
 </div>
 )
