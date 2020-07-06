@@ -1,8 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 # Personal Site
 
-This is the main development repo for my personal website/blog. It was developed using
-GatsbyJS.
+This is the main development repo for my personal website/blog. It was developed
+using GatsbyJS.
 
 ## TODO
 
@@ -11,3 +10,11 @@ GatsbyJS.
 - [ ] Add a Web Hook to check grammar and spelling
 - [ ] Do testing on different devices
 - [ ] Image Optimization
+- [ ] Change Favicon
+- [ ] Change background color to be a little easier on the eyes maybe a light red hue
+- [ ] Clean up Blog Page
+- [ ] Fix blog post page
+    - [ ] Tags should be colored (could make its own component)
+    - [ ] Time to read
+    - [ ] highlight.js integration
+- [ ] Navbar just in the middle

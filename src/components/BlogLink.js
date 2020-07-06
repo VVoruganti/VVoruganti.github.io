@@ -19,6 +19,7 @@ class BlogLink extends React.Component {
             "Python": "#EC5F67",
             "DevOps":"#F99157",
             "WSL":"rgba(155, 154, 151, 0.4)",
+            "Dreams": "#eb349b",
         }
         const tags = this.props.tags.map(tag => (<p className={styles.tag} style={{backgroundColor: tagMap[tag]}}> {tag}</p>));
         return (
