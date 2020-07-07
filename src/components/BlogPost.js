@@ -13,6 +13,7 @@ export default ({ data }) => {
     return (
         <div>
             <SEO title={post.frontmatter.title} description={post.excerpt} />
+            <link rel="icon" href="/favicon.ico" />
             <Navbar />
             <div className={styles.main}>
                 <h1>{post.frontmatter.title}</h1>

@@ -17,6 +17,7 @@ export default () => (
         <meta charSet="utf-8" />
         <title>Vineeth Voruganti</title>
         <link rel="canonical" href="https://www.vineeth.io/aboutme" />
+        <link rel="icon" href="/favicon.ico" />
     </Helmet>
     <SEO />
     <Navbar />
