@@ -5,12 +5,12 @@ tags: ["Dreams"]
 ---
 
 Recently I've been having some pretty wild dreams and I was describing them to
-a good friend of mine who thought it would be a good idea if I tried starting a
-dream journal. I thought this would be a fun idea so here I go.
+a good friend of mine who suggested the idea that I start a
+dream journal. I thought this would be a fun so here I go.
 
 ## Rules of my Dreams
 
-Before I get into my dream itself I want to explain some standard principles that
+Before I get into my dream I want to explain some standard principles that
 my dreams tend to follow.
 
 First, I am fairly in control of the plotline and scenario of a dream,
@@ -26,9 +26,9 @@ character besides me will be present in the dream, but will never say something.
 Usually, this probably just because I don't actually know what they would have
 said in whatever wacky scenario we're in. Nevertheless, I'll come up with a
 crazy explanation like "oh they were cursed by the evil queen in the castle" even
-when there has never been any mention of a queen before now.
+if there has never been any mention of a queen before now.
 
-Now that I got that out of the way I wanted to describe my most recent vivid dream.
+Now that I got that out of the way, I wanted to describe my most recent vivid dream.
 
 ## Dream
 
@@ -40,7 +40,7 @@ family friends which consisted of both my parents' and my brother's friends
 Both of these groups of people seemed to be endlessly embroiled in mindless
 chit chat, however, I cannot remember what they talked about. Besides these two groups,
 there was also me, my childhood friend, and a ton of small children 12 and younger.
-It was tasked to us to take care of the kids and keep them occupied. So we spent
+My friend and I were tasked with taking care of the kids and keeping them occupied. So we spent
 our time trying to come up with creative ways to keep the kids entertained. We gave
 them coloring books, played hide and seek, and at some point, I taught some of them
 how to play League of Legends. At this point, I thought everything was going well,
