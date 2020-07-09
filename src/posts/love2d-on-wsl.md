@@ -1,5 +1,5 @@
 ---
-title: "💜Löve2D on WSL"
+title: "💜 Löve2D on WSL"
 date: "05/04/2020"
 tags: ["Games", "WSL"]
 ---
