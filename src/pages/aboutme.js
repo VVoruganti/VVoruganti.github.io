@@ -13,16 +13,16 @@ library.add(fab, faEnvelope)
 
 export default () => (
 <div>
+    <SEO />
     <Helmet>
         <meta charSet="utf-8" />
-        <title>Vineeth Voruganti</title>
+        <title>About</title>
         <link rel="canonical" href="https://www.vineeth.io/aboutme" />
         <link rel="icon" href="/favicon.ico" />
     </Helmet>
-    <SEO />
     <Navbar />
     <div className={styles.main}>
-        <h1>About me</h1>
+        <h1>Hi, I'm Vineeth</h1>
         <div className={styles.contactCard}>
             <img src="/square-headshot.jpg" alt="me"></img>
             <ul>
@@ -33,8 +33,10 @@ export default () => (
             </ul>
         </div>
         <p>
-            Hi, my name is Vineeth Voruganti. I am currently an undergraduate student at the Georgia
-            Institute of Technology, studying Electrical Engineering.
+            I am currently an undergraduate student at the Georgia Institute of Technology, studying Electrical Engineering.
+            I never got the point of just talking about my qualifications and skills on my own website. If you really
+            want to see any of that stuff you can checkout my linkedin. I'm just trying to use this as place to put down
+            some of my thoughts.
         </p>
         <p>
             I love working on personal projects, making games, traveling, and reading.

@@ -1,5 +1,5 @@
 ---
-title: "☁ Dream Journal #1"
+title: "☁ Dream Journal #1 | Conferences and Weddings"
 date: "07/06/2020"
 tags: ["Dreams"]
 ---

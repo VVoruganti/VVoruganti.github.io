@@ -18,6 +18,7 @@ using GatsbyJS.
 - [ ] Navbar just in the middle
 - [ ] Change picture of yourself
 - [ ] Add hover to the Blog Link Page
+- [ ] See if the branch structure of the git repo can be changed so that master is gatsby, and gh-pages is the hosted site
 
 ## Inspiration
 

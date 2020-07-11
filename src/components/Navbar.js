@@ -11,7 +11,7 @@ const Brand = styled(Link)`
 const PageLink = styled(Link)`
     text-decoration:none;
     &:hover {
-        background-color:#DDDDDD;
+        color:#DDDDDD;
     }
 `
 
@@ -19,13 +19,8 @@ class Navbar extends React.Component {
     render() {
         return (
             <nav className={styles.nav}>
-                <div className={styles.navLeft}>
-                    <Brand to="/">Vineeth Voruganti</Brand>
-                </div>
-                <div className={styles.navRight}>
-                    <PageLink to="/">Blog </PageLink> 
-                    <PageLink to="/aboutme">About Me </PageLink> 
-                </div>
+                <PageLink to="/aboutme">About</PageLink>
+                <PageLink to="/">Blog </PageLink>  
             </nav>
         ) 
     }

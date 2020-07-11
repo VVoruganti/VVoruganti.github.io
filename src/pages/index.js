@@ -24,13 +24,13 @@ export default ({ data }) => {
         <SEO />
         <Helmet>
             <meta charSet="utf-8" />
-            <title>Vineeth Voruganti</title>
+            <title>Blog</title>
             <link rel="canonical" href="https://www.vineeth.io" />
             <link rel="icon" href="/favicon.ico" />
         </Helmet>
         <Navbar />
         <div className={styles.main}>
-            <h1>Some of My Thoughts</h1> 
+            <h1>Some Stories 📜</h1> 
             <div id="posts">
                 {blogTitles}
             </div>
