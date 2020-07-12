@@ -28,18 +28,16 @@ use that was fast and customizable. Initially, I was between
 <a href="https://conemu.github.io/">ConEMU</a> and <a href="https://github.com/alacritty/alacritty">Alacritty</a>.</p>
 <p>ConEMU seems to be the more feature-rich application but I found the support for
 color customization to be quite lackluster as the color schemes I tried were not
-working. Also, I found performance with apps like <code>vim</code> were quite slow. <strong>Alacritty</strong>
+working. Also, I found performance with apps like <code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="0"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">vim</span></code> were quite slow. <strong>Alacritty</strong>
 is great because it was built with performance in mind and messing with colors
 was really straight forward. </p>
 <p>I installed it using chocolatey</p>
-<pre><code class="language-bash">choco install alacritty
-</code></pre>
+<pre class="grvsc-container abyss grvsc-mm-tJ07fR" data-language="bash" data-index="0"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">choco install alacritty</span></span></span></code></pre>
 <p>I then edited my <em>alacritty.yml</em> file to make it open WSL by default and to mess
 with the color scheme. For me this file was located in
 C:Users{my user}\AppData\Roaming\alacritty.</p>
-<pre><code class="language-yaml">shell:
-  program: wsl
-</code></pre>
+<pre class="grvsc-container abyss grvsc-mm-tJ07fR" data-language="yaml" data-index="1"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-7 grvsc-tJ07fR-3">shell</span><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">:</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">  </span><span class="grvsc-t9ljLd-7 grvsc-tJ07fR-3">program</span><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">: </span><span class="grvsc-t9ljLd-11 grvsc-tJ07fR-8">wsl</span></span></span></code></pre>
 <p>Another one I messed around with was the
 <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701">Windows terminal</a>
 which was still in beta and experimental at the time. It had pretty could
@@ -50,25 +48,23 @@ or with managing nice color schemes.</p>
 stayed the same (I'm a bit of a stickler for color schemes if you haven't noticed).
 I use the <a href="https://github.com/voronianski/oceanic-next-color-scheme">OceanicNext</a>
 Color scheme, but it wasn't really showing up properly in tmux. So I had to edit my
-<code>.tmux.conf</code> file.</p>
-<pre><code class="language-tmux">set-option -sg escape-time 10
-set-option -g default-terminal "tmux-256color"
-set-option -sa terminal-overrides ",*256col*:RGB"
-set-option -ga terminal-overrides ",*256col*:Tc"
-</code></pre>
+<code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="1"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">.tmux.conf</span></code> file.</p>
+<pre class="grvsc-container abyss grvsc-mm-tJ07fR" data-language="tmux" data-index="2"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source">set-option -sg escape-time 10</span></span>
+<span class="grvsc-line"><span class="grvsc-source">set-option -g default-terminal &quot;tmux-256color&quot;</span></span>
+<span class="grvsc-line"><span class="grvsc-source">set-option -sa terminal-overrides &quot;,*256col*:RGB&quot;</span></span>
+<span class="grvsc-line"><span class="grvsc-source">set-option -ga terminal-overrides &quot;,*256col*:Tc&quot;</span></span></code></pre>
 <p>After that my tmux looked just as beautiful as before.</p>
 <h2>Xserver</h2>
 <p>Finally, I wanted to set up an Xserver so that I could run gui applications from
 within WSL. This isn't really perfect but I could. I downloaded an application
 called <a href="https://sourceforge.net/projects/vcxsrv/">VcXsrv</a>.</p>
 <p>Now to set it up to work with WSL I set the following
-variable in my <code>.bashrc</code>. Just make sure to substitute in your own IP address.
-you can find it in the command prompt with <code>ipconfig</code></p>
-<p><strong>NOTE</strong> the ip address given if you run <code>ifconfig</code> in WSL is different than your
+variable in my <code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="2"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">.bashrc</span></code>. Just make sure to substitute in your own IP address.
+you can find it in the command prompt with <code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="3"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">ipconfig</span></code></p>
+<p><strong>NOTE</strong> the ip address given if you run <code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="4"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">ifconfig</span></code> in WSL is different than your
 actual IP address, so make sure you use command <em>prompt</em>.</p>
-<pre><code class="language-bash">export DISPLAY:{MY IP ADDRESS}:0.0
-export LIBGL_ALWAYS_INDIRECT=1
-</code></pre>
+<pre class="grvsc-container abyss grvsc-mm-tJ07fR" data-language="bash" data-index="3"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-7 grvsc-tJ07fR-11">export</span><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1"> DISPLAY:{MY IP ADDRESS}:0.0</span></span></span>
+<span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-7 grvsc-tJ07fR-11">export</span><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1"> LIBGL_ALWAYS_INDIRECT=1</span></span></span></code></pre>
 <p>once you reload bash you can startup up VcXsrv and follow the prompt on the first
 2 windows. On the third window make sure you check Disable Access Control</p>
 <p><span
@@ -136,18 +132,132 @@ like XFCE and it will appear on the screen.</p>
   </a>
     </span></p>
 <p>if you want to try XFCE like above install</p>
-<pre><code class="language-bash">sudo apt-get xfce-session
-</code></pre>
-<p>then once the server is running just run <code>xfce-session</code> in the terminal</p>
+<pre class="grvsc-container abyss grvsc-mm-tJ07fR" data-language="bash" data-index="4"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">sudo apt-get xfce-session</span></span></span></code></pre>
+<p>then once the server is running just run <code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="5"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">xfce-session</span></code> in the terminal</p>
 <p><strong>NOTE</strong> This is a notable difference between WSL 1 and 2. I don't think you
 follow the same steps with WSL 1</p>
 <p>Once I had that setup, I was able to run things like XFCE from within windows.</p>
 <h2>Running Windows Applications</h2>
 <p>A neat trick of WSL is that if everything is running properly you can actually
 run windows .exe programs from within WSL. You can try this out by typing
-<code>explorer.exe .</code> This is a handy trick to open a file explorer in your WSL partition.</p>
+<code class="abyss grvsc-mm-tJ07fR" data-language="bash" data-index="6"><span class="grvsc-t9ljLd-1 grvsc-tJ07fR-1">explorer.exe </span><span class="grvsc-t9ljLd-15 grvsc-tJ07fR-11">.</span></code> This is a handy trick to open a file explorer in your WSL partition.</p>
 <p>Also handy if you want to run a windows program on files in WSL without manually
 moving them to Windows. I used this trick to develop Löve2D games from WSL
 and launch them from Windows.</p>
 <p>If you want to see more of my own environment you can check out my
-<a href="https://github.com/VVoruganti/dotfiles">dotfiles</a> on my Github page</p></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/windows-with-wsl/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-4b3e173a4604465e8cf8.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-4221fab6bc348d601965.js"],"component---src-components-blog-post-js":["/component---src-components-blog-post-js-5939947c99f6e52d8a1d.js"],"component---src-pages-404-js":["/component---src-pages-404-js-86d174a439d39c82d0fa.js"],"component---src-pages-aboutme-js":["/component---src-pages-aboutme-js-6c9eed038a6c237a8da1.js"],"component---src-pages-index-js":["/component---src-pages-index-js-a6d45fd06c61cfcef0ba.js"]};/*]]>*/</script><script src="/component---src-components-blog-post-js-5939947c99f6e52d8a1d.js" async=""></script><script src="/6b22bcb9f177f895c17ee3db09c1f3a2c6fdec2f-d00e28209de527e8a398.js" async=""></script><script src="/styles-8636a280cbc61d53ad10.js" async=""></script><script src="/app-4b3e173a4604465e8cf8.js" async=""></script><script src="/framework-9fa3c3527bf76bdd7ce7.js" async=""></script><script src="/webpack-runtime-00bcb24257bcfc717e1b.js" async=""></script></body></html>
+<a href="https://github.com/VVoruganti/dotfiles">dotfiles</a> on my Github page</p>
+<style class="grvsc-styles">
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line > * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: ' ';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting > .grvsc-code > .grvsc-line::before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .abyss { background-color: #000c18; }
+  .abyss .grvsc-t9ljLd-1 { color: #6688CC; }
+  .abyss .grvsc-t9ljLd-7 { color: #225588; }
+  .abyss .grvsc-t9ljLd-11 { color: #22AA44; }
+  .abyss .grvsc-t9ljLd-15 { color: #9966B8; }
+  .abyss .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+  }
+  
+  /* Monokai dimmed */
+  @media (prefers-color-scheme: dark) {
+    .grvsc-mm-tJ07fR {
+      background-color: #1e1e1e;
+      color: #c5c8c6;
+    }
+    .grvsc-mm-tJ07fR .grvsc-tJ07fR-1 { color: #C5C8C6FF; }
+    .grvsc-mm-tJ07fR .grvsc-tJ07fR-3 { color: #6089B4; }
+    .grvsc-mm-tJ07fR .grvsc-tJ07fR-8 { color: #9AA83A; }
+    .grvsc-mm-tJ07fR .grvsc-tJ07fR-11 { color: #9872A2; }
+    .grvsc-mm-tJ07fR .grvsc-line-highlighted::before {
+      background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
+      box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
+    }
+  }
+</style></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/windows-with-wsl/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-4b3e173a4604465e8cf8.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-4221fab6bc348d601965.js"],"component---src-components-blog-post-js":["/component---src-components-blog-post-js-5939947c99f6e52d8a1d.js"],"component---src-pages-404-js":["/component---src-pages-404-js-86d174a439d39c82d0fa.js"],"component---src-pages-aboutme-js":["/component---src-pages-aboutme-js-6c9eed038a6c237a8da1.js"],"component---src-pages-index-js":["/component---src-pages-index-js-a6d45fd06c61cfcef0ba.js"]};/*]]>*/</script><script src="/component---src-components-blog-post-js-5939947c99f6e52d8a1d.js" async=""></script><script src="/6b22bcb9f177f895c17ee3db09c1f3a2c6fdec2f-d00e28209de527e8a398.js" async=""></script><script src="/styles-8636a280cbc61d53ad10.js" async=""></script><script src="/app-4b3e173a4604465e8cf8.js" async=""></script><script src="/framework-9fa3c3527bf76bdd7ce7.js" async=""></script><script src="/webpack-runtime-00bcb24257bcfc717e1b.js" async=""></script></body></html>
