@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vineeth Voruganti]]></title><description><![CDATA[My personal site where I write down my thoughts]]></description><link>https://www.vineeth.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Jul 2020 02:39:58 GMT</lastBuildDate><item><title><![CDATA[☁ Dream Journal #3 | Demons and Karaoke]]></title><description><![CDATA[This dream was unique because it was stylized differently. Half of the time it was
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vineeth Voruganti]]></title><description><![CDATA[My personal site where I write down my thoughts]]></description><link>https://www.vineeth.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 02:51:15 GMT</lastBuildDate><item><title><![CDATA[☁ Dream Journal #3 | Demons and Karaoke]]></title><description><![CDATA[This dream was unique because it was stylized differently. Half of the time it was
 like real life, but the other half it was as if I was in…]]></description><link>https://www.vineeth.io/dream-journal-3/</link><guid isPermaLink="false">https://www.vineeth.io/dream-journal-3/</guid><pubDate>Fri, 10 Jul 2020 04:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This dream was unique because it was stylized differently. Half of the time it was
 like real life, but the other half it was as if I was in a cartoon.&lt;/p&gt;
 &lt;h2&gt;Dream&lt;/h2&gt;
@@ -449,7 +449,7 @@ use that was fast and customizable. Initially, I was between
 color customization to be quite lackluster as the color schemes I tried were not
 working. Also, I found performance with apps like &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;vim&lt;/span&gt;&lt;/code&gt; were quite slow. &lt;strong&gt;Alacritty&lt;/strong&gt;
 is great because it was built with performance in mind and messing with colors
-was really straight forward. &lt;/p&gt;
+was really straight forward.&lt;/p&gt;
 &lt;p&gt;I installed it using chocolatey&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;choco install alacritty&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I then edited my &lt;em&gt;alacritty.yml&lt;/em&gt; file to make it open WSL by default and to mess
@@ -488,7 +488,7 @@ actual IP address, so make sure you use command &lt;em&gt;prompt&lt;/em&gt;.&lt;
 2 windows. On the third window make sure you check Disable Access Control&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -499,18 +499,19 @@ actual IP address, so make sure you use command &lt;em&gt;prompt&lt;/em&gt;.&lt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAB2HAAAdhwGP5fFlAAABrklEQVQ4y6VS2XKCQBDk/z8olVSlEmMQRTywvO8TVBRP0McOPbjm0CrL+NDMsrvT2z0zmuO4mEwm6PcHCA8HHI7HON4J5vj+CtpiscBgMECv18NoNEIYhneTxQgRBEFM2O120W63Ua1Wo1d8rNfrf0NbrVbY7XbY7/cSSfgItOVyCcdxpI5US9LtdvsLdynkp1KpIJlMSqT1VqslkaUgSKocqMi8zWZzAY2Hs9kMtVoN+XwehmEgl8tFXe8L2Cw6GI/H4oKNc11Xkq8qpE1eoqpSqSSKhsOhJCsSRUTwnPuqFBcK+Wk2m2JZ13UUCgWUy2XYtg3LskQt97jmPY4YI9X/ra8Qssu0m0qlUCwWz7aZRKVURBLWlFaZyBxFcLUpvGyapighSNzpdMQia6iaw7JwnwKY85P0bJkNYXcbjYZcZCQJkz3Pk9niaBG3ZlAU8qIah0dADlEoCs4q/BNiRcvz2bcC1k+t/dM6rulG/rUgYr+JgCrieeVD3nwuXZ5NpzF5ROS6jkStUqvjFqr1BvJFG69vCehGGh+fOp6eX5BI6kibWRgZMzp7RyZr4QsYZqLNZHVeuwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAB2HAAAdhwGP5fFlAAABrklEQVQ4y6VS2XKCQBDk/z8olVSlEmMQRTywvO8TVBRP0McOPbjm0CrL+NDMsrvT2z0zmuO4mEwm6PcHCA8HHI7HON4J5vj+CtpiscBgMECv18NoNEIYhneTxQgRBEFM2O120W63Ua1Wo1d8rNfrf0NbrVbY7XbY7/cSSfgItOVyCcdxpI5US9LtdvsLdynkp1KpIJlMSqT1VqslkaUgSKocqMi8zWZzAY2Hs9kMtVoN+XwehmEgl8tFXe8L2Cw6GI/H4oKNc11Xkq8qpE1eoqpSqSSKhsOhJCsSRUTwnPuqFBcK+Wk2m2JZ13UUCgWUy2XYtg3LskQt97jmPY4YI9X/ra8Qssu0m0qlUCwWz7aZRKVURBLWlFaZyBxFcLUpvGyapighSNzpdMQia6iaw7JwnwKY85P0bJkNYXcbjYZcZCQJkz3Pk9niaBG3ZlAU8qIah0dADlEoCs4q/BNiRcvz2bcC1k+t/dM6rulG/rUgYr+JgCrieeVD3nwuXZ5NpzF5ROS6jkStUqvjFqr1BvJFG69vCehGGh+fOp6eX5BI6kibWRgZMzp7RyZr4QsYZqLNZHVeuwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;VcXsrv Disable Access Control&quot;
         title=&quot;VcXsrv Disable Access Control&quot;
-        src=&quot;/static/c95d095f0192324844840cbf9ff850f0/5a190/VcXsrv%20Disable%20Access%20Control.png&quot;
-        srcset=&quot;/static/c95d095f0192324844840cbf9ff850f0/772e8/VcXsrv%20Disable%20Access%20Control.png 200w,
-/static/c95d095f0192324844840cbf9ff850f0/e17e5/VcXsrv%20Disable%20Access%20Control.png 400w,
-/static/c95d095f0192324844840cbf9ff850f0/5a190/VcXsrv%20Disable%20Access%20Control.png 800w,
+        src=&quot;/static/c95d095f0192324844840cbf9ff850f0/a6d36/VcXsrv%20Disable%20Access%20Control.png&quot;
+        srcset=&quot;/static/c95d095f0192324844840cbf9ff850f0/222b7/VcXsrv%20Disable%20Access%20Control.png 163w,
+/static/c95d095f0192324844840cbf9ff850f0/ff46a/VcXsrv%20Disable%20Access%20Control.png 325w,
+/static/c95d095f0192324844840cbf9ff850f0/a6d36/VcXsrv%20Disable%20Access%20Control.png 650w,
+/static/c95d095f0192324844840cbf9ff850f0/e548f/VcXsrv%20Disable%20Access%20Control.png 975w,
 /static/c95d095f0192324844840cbf9ff850f0/75609/VcXsrv%20Disable%20Access%20Control.png 994w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -520,7 +521,7 @@ actual IP address, so make sure you use command &lt;em&gt;prompt&lt;/em&gt;.&lt;
 like XFCE and it will appear on the screen.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -531,20 +532,20 @@ like XFCE and it will appear on the screen.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAB2HAAAdhwGP5fFlAAADUElEQVQ4y02T+09bdRiHTzLtZmJE2o0ZHcFwCbMtbWFd1+JkiJdYMjPFIQsCXojZTJRENwwdMBVZIjMah8Nl2TC49Y4gdIOM0dOW0tILLaU6CHj5Sf+Px+8pM/GHJ+fN5/0835yTc46ku3kD/e1Jiu/4KQl40cy42TvrZt+sp4CS/Z//cqWjdHdwobnjQzNxFcnic3I0vIB+OYgxJmNaCVOXWMKcimJJxziyGsea2UGZlUzZKR3TSgRTLIRRuIqn/8WHdNjjoV4OYggFqY2EMUeXsMVjNCQSNKWSvLia5uUHKPPzIntO7JSO0lUco/BN4RB6rwep3umh8Z5Mzb0wh+Qo9UtxXoinaU5lObGaoyW7zsm1fAFlVjJ7MktTPFXoKo5RuMZgBJ1LucNxN7aAjH5O3N3CMsdCSezLGVqS67St/spb2ft0PKBd8KbIXk+s84roNIQSBccg3Jr5CM9MiAPN13xYp8Jop2XqAlEa7iZoDmdojeXpTN2nO7PJ6dwWp9e3C3OXyNrieV6NZDm2kCw4+ikZ3XSIg9e8SJWjTqpdixg8QWzTUezzKdrDOc6sbHAus81A/i8G1rbpS2+I+U/OikzZtYdyNItuvXCMXhmtW6Zq1IVUfukm+olFrE6Zl35epuV2iu5gjt74JsPZ37my9Q+Diwl6fPN8v/U3F7N/8OnKJu/L67TOpQuO5VaQ6h8XeHrkJ6QDX4xz8Oo85ut3abwVotm3TNtMkjMLa/RGfuOCOPjL5BbDqW36Yxv0BPO0B8Qb90Q5NL5I1Q9zlH43w1OXZ3ny8xtImt4x9l/0U/qVn7JLU5SOTHFgZJrSr2co/zZA5ei8eJQdKi7PUfbNLE+IvXrYT9GQl2KBekj8DMPiwz43hvRIzxiq8x5UfS4eEuzqc7PL4eHhAT+7Byd51OGkeNBN0YCg38WeC5OoxE7V7xN4C+5uhwuVw82ej64glZz6mMc7HGg6HajfGUTT/Rn7u4co6uxHI3Jto52m105itr+B5XgrJW8P8lhHP2pxVXcNUCx6xR3n2feu8NrPIhlsFioMemptdVhOvUfTh59wvOsDyg06ynTVlNdqBToqjAbKTSYqTEYqBVW1JmqsFvTWI2gthzEdfRa9zcq/b3yJ5rTWqRsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.87116564417178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAB2HAAAdhwGP5fFlAAADUElEQVQ4y02T+09bdRiHTzLtZmJE2o0ZHcFwCbMtbWFd1+JkiJdYMjPFIQsCXojZTJRENwwdMBVZIjMah8Nl2TC49Y4gdIOM0dOW0tILLaU6CHj5Sf+Px+8pM/GHJ+fN5/0835yTc46ku3kD/e1Jiu/4KQl40cy42TvrZt+sp4CS/Z//cqWjdHdwobnjQzNxFcnic3I0vIB+OYgxJmNaCVOXWMKcimJJxziyGsea2UGZlUzZKR3TSgRTLIRRuIqn/8WHdNjjoV4OYggFqY2EMUeXsMVjNCQSNKWSvLia5uUHKPPzIntO7JSO0lUco/BN4RB6rwep3umh8Z5Mzb0wh+Qo9UtxXoinaU5lObGaoyW7zsm1fAFlVjJ7MktTPFXoKo5RuMZgBJ1LucNxN7aAjH5O3N3CMsdCSezLGVqS67St/spb2ft0PKBd8KbIXk+s84roNIQSBccg3Jr5CM9MiAPN13xYp8Jop2XqAlEa7iZoDmdojeXpTN2nO7PJ6dwWp9e3C3OXyNrieV6NZDm2kCw4+ikZ3XSIg9e8SJWjTqpdixg8QWzTUezzKdrDOc6sbHAus81A/i8G1rbpS2+I+U/OikzZtYdyNItuvXCMXhmtW6Zq1IVUfukm+olFrE6Zl35epuV2iu5gjt74JsPZ37my9Q+Diwl6fPN8v/U3F7N/8OnKJu/L67TOpQuO5VaQ6h8XeHrkJ6QDX4xz8Oo85ut3abwVotm3TNtMkjMLa/RGfuOCOPjL5BbDqW36Yxv0BPO0B8Qb90Q5NL5I1Q9zlH43w1OXZ3ny8xtImt4x9l/0U/qVn7JLU5SOTHFgZJrSr2co/zZA5ei8eJQdKi7PUfbNLE+IvXrYT9GQl2KBekj8DMPiwz43hvRIzxiq8x5UfS4eEuzqc7PL4eHhAT+7Byd51OGkeNBN0YCg38WeC5OoxE7V7xN4C+5uhwuVw82ej64glZz6mMc7HGg6HajfGUTT/Rn7u4co6uxHI3Jto52m105itr+B5XgrJW8P8lhHP2pxVXcNUCx6xR3n2feu8NrPIhlsFioMemptdVhOvUfTh59wvOsDyg06ynTVlNdqBToqjAbKTSYqTEYqBVW1JmqsFvTWI2gthzEdfRa9zcq/b3yJ5rTWqRsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Working XFCE&quot;
         title=&quot;Working XFCE&quot;
-        src=&quot;/static/1585866e7ce759dd6c42f24e58486afb/5a190/Working%20XFCE.png&quot;
-        srcset=&quot;/static/1585866e7ce759dd6c42f24e58486afb/772e8/Working%20XFCE.png 200w,
-/static/1585866e7ce759dd6c42f24e58486afb/e17e5/Working%20XFCE.png 400w,
-/static/1585866e7ce759dd6c42f24e58486afb/5a190/Working%20XFCE.png 800w,
-/static/1585866e7ce759dd6c42f24e58486afb/c1b63/Working%20XFCE.png 1200w,
-/static/1585866e7ce759dd6c42f24e58486afb/29007/Working%20XFCE.png 1600w,
+        src=&quot;/static/1585866e7ce759dd6c42f24e58486afb/a6d36/Working%20XFCE.png&quot;
+        srcset=&quot;/static/1585866e7ce759dd6c42f24e58486afb/222b7/Working%20XFCE.png 163w,
+/static/1585866e7ce759dd6c42f24e58486afb/ff46a/Working%20XFCE.png 325w,
+/static/1585866e7ce759dd6c42f24e58486afb/a6d36/Working%20XFCE.png 650w,
+/static/1585866e7ce759dd6c42f24e58486afb/e548f/Working%20XFCE.png 975w,
+/static/1585866e7ce759dd6c42f24e58486afb/3c492/Working%20XFCE.png 1300w,
 /static/1585866e7ce759dd6c42f24e58486afb/1307b/Working%20XFCE.png 3000w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -690,7 +691,7 @@ the nightly build of windows.&lt;/p&gt;
 installer. In my case I clicked on the &lt;em&gt;64-bit installer.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -701,19 +702,20 @@ installer. In my case I clicked on the &lt;em&gt;64-bit installer.&lt;/em&gt;&lt
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 87.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADG0lEQVQ4y4WSSVMTQRTH82n8Lp49ePXuwYs3z2p5sbxoWSXKEpIgZCEBQWUpNgVCFgIBQiCZySSZmSwkgewzCX/f60kAuXD41+t+3e/3lm6bXDeRNQEtpkB79gH603fQn7xF/r0fcgfgc7nRu5HUoPvNa6wUVLjkBCZiOpwHBaTW45BO8rBlim2sZdpYrFJwtQOJVWhA1utIE0y6IwG8MoVfbQEUipJhSe4DEhVgi1T6eLyg4ZEzjT8XfaRrLQQzBURyJYRlHVGliEO1ggj5eL+fLSMiFxCidYTOIkrJWksaUlSM7eiqj1ehGp5vlBCv9XBWrmP3LIfdZBZhuhQiRTNFCyjpQsFUXvj3yHLCuFZFXK/ROHqwKTQTiWYita6hNHtIXXZxVmkjUWogUW4iWWkJnVfbSF406ayF03KD1mRpz/ez1HqW4jMMPKya8CsdIW+mA7fcFjaQ7eK3aggtaSaWSSs6W2NghzKwrHaxQva4ZsIWLJuwpzqYTLXhkLqYyQMOpQcXyadew5vrUYKukI++QyDfh1cxaG2IvVchP2lG7mKPWLZteiK+/FO/xui+hpcjc3BtJWDfPIVj6xT2YAY+qviH2sf4YRFvFqNwHF9gJJzDt6gKj9RCIGfAQ4xdBm4VrQ07XecNfF6Kwedehc+/Ce/0EgIhAuZ7WKCEn3ZkvBj7halEFU6Cfj+twk+VBnKmYOyUCLhRMETZftIcBc5pXKmK0WgOX4ISPDRTDuIzO0Her51gLJzFeCQHZ7wI9/kVfFITHhoDd2tb0wdACpol66UWPOd1cXHm7Aqz1O7s4Iyh8wymhNPJGp1fCvk4Zghc1W4r5NIXdFiV0syEaD1MxuJ5chI/3Q3cyLhtmZ+bH2WegifiZbymoTtpRo6TChxkJ+IluNPNGyjbuwksX9d6lLvAubyJqeQlPm6nMRpS8DUow35YwDQ9FFd1H3ILtywD+Qv+1/JwRpMxDY4DHa6jEmYGs7pf4X0xI8TA9YJVoQjgz0qv6jouCxjLnaoL30NA/tzRCwL+HfzDuwHWoHvC8vAfgg2BsYqJf4RstQiZqLXVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 87.11656441717791%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADG0lEQVQ4y4WSSVMTQRTH82n8Lp49ePXuwYs3z2p5sbxoWSXKEpIgZCEBQWUpNgVCFgIBQiCZySSZmSwkgewzCX/f60kAuXD41+t+3e/3lm6bXDeRNQEtpkB79gH603fQn7xF/r0fcgfgc7nRu5HUoPvNa6wUVLjkBCZiOpwHBaTW45BO8rBlim2sZdpYrFJwtQOJVWhA1utIE0y6IwG8MoVfbQEUipJhSe4DEhVgi1T6eLyg4ZEzjT8XfaRrLQQzBURyJYRlHVGliEO1ggj5eL+fLSMiFxCidYTOIkrJWksaUlSM7eiqj1ehGp5vlBCv9XBWrmP3LIfdZBZhuhQiRTNFCyjpQsFUXvj3yHLCuFZFXK/ROHqwKTQTiWYita6hNHtIXXZxVmkjUWogUW4iWWkJnVfbSF406ayF03KD1mRpz/ez1HqW4jMMPKya8CsdIW+mA7fcFjaQ7eK3aggtaSaWSSs6W2NghzKwrHaxQva4ZsIWLJuwpzqYTLXhkLqYyQMOpQcXyadew5vrUYKukI++QyDfh1cxaG2IvVchP2lG7mKPWLZteiK+/FO/xui+hpcjc3BtJWDfPIVj6xT2YAY+qviH2sf4YRFvFqNwHF9gJJzDt6gKj9RCIGfAQ4xdBm4VrQ07XecNfF6Kwedehc+/Ce/0EgIhAuZ7WKCEn3ZkvBj7halEFU6Cfj+twk+VBnKmYOyUCLhRMETZftIcBc5pXKmK0WgOX4ISPDRTDuIzO0Her51gLJzFeCQHZ7wI9/kVfFITHhoDd2tb0wdACpol66UWPOd1cXHm7Aqz1O7s4Iyh8wymhNPJGp1fCvk4Zghc1W4r5NIXdFiV0syEaD1MxuJ5chI/3Q3cyLhtmZ+bH2WegifiZbymoTtpRo6TChxkJ+IluNPNGyjbuwksX9d6lLvAubyJqeQlPm6nMRpS8DUow35YwDQ9FFd1H3ILtywD+Qv+1/JwRpMxDY4DHa6jEmYGs7pf4X0xI8TA9YJVoQjgz0qv6jouCxjLnaoL30NA/tzRCwL+HfzDuwHWoHvC8vAfgg2BsYqJf4RstQiZqLXVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Löve2D Installation Link&quot;
         title=&quot;Löve2D Installation Link&quot;
-        src=&quot;/static/69f8cfa77e66da95e66f11ebc1a1aa1d/5a190/love-install-link.png&quot;
-        srcset=&quot;/static/69f8cfa77e66da95e66f11ebc1a1aa1d/772e8/love-install-link.png 200w,
-/static/69f8cfa77e66da95e66f11ebc1a1aa1d/e17e5/love-install-link.png 400w,
-/static/69f8cfa77e66da95e66f11ebc1a1aa1d/5a190/love-install-link.png 800w,
-/static/69f8cfa77e66da95e66f11ebc1a1aa1d/c1b63/love-install-link.png 1200w,
+        src=&quot;/static/69f8cfa77e66da95e66f11ebc1a1aa1d/a6d36/love-install-link.png&quot;
+        srcset=&quot;/static/69f8cfa77e66da95e66f11ebc1a1aa1d/222b7/love-install-link.png 163w,
+/static/69f8cfa77e66da95e66f11ebc1a1aa1d/ff46a/love-install-link.png 325w,
+/static/69f8cfa77e66da95e66f11ebc1a1aa1d/a6d36/love-install-link.png 650w,
+/static/69f8cfa77e66da95e66f11ebc1a1aa1d/e548f/love-install-link.png 975w,
+/static/69f8cfa77e66da95e66f11ebc1a1aa1d/3c492/love-install-link.png 1300w,
 /static/69f8cfa77e66da95e66f11ebc1a1aa1d/a6ec4/love-install-link.png 1438w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -725,7 +727,7 @@ clicking on the application. A stock GIF of a ballon 🎈 should pop up in the l
 game window.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -736,18 +738,18 @@ game window.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 110.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAACRUlEQVQ4y52U6W7qQAyF8/6vdP9VQiwSapHY933fSQhb4pvP1BGk9Fa3IxnPMI7tc2yPMxqNpNvtCrrdbku/35fL5SLX61XO5/OX/XfieZ6s1mtxFouFTCYTmc/nMhwOVe92O9lut2qU3NsZfTgcZLPZiOu6cjweVTuz2UxqtZpm12g01GGn05FyuazGBBuPx7rHjrt6vS7NZlOm06lUKhXVOCSIA5z9fi9kigAd2MvlUp0TkA8Gg4EYGs78DyI09twB3YEbu8QQOEQjEAbcn04nFTub1rtIgO77/t3h7XZTR8ViUWGSmWVFVDLjbNmiyXK1WkU2k4i3g9gigDpcR9WBHzggEyOZqBQjeSYj7+jL7uCJf4qyvQZyC0K54BCvv1kr9yxvuQ/585aW90pL1h7t9cmh8UT0f60gCGI5XSJkey8SV7ZuxN8tuHPIDzwBmRaAJ6oOR1DAHg3kMAxjESRe4TOHcEIR4BLCrSgUCGGPzU/r/L8cxtlFC4oYhGq1qr1rI6iQH41NHvlCnuB+ZsMbAFUgsL7VDInQ6/WUSzRCiyQdP57DJw7vCcUc0sDMJo6YVWbXXh6io1utlkJkoiwojr9waJBf8ZTcY2tOgMiY0gU0PonFkJMfv3KWXBSlUChIJpNRNE9FMW6ShXklZAa/iD0a9OiPVX5VdRaPQzqdllwuJ/l8XrLZrKRSKe3fJ4e/WUkq4NHRlyOa4VcC2RBPFzAx7JPnx0eX7B1m1kYsKfYe2ltJ+9AuwEU4l0olLQzQafK/SxSZeXf5hV4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 110.42944785276075%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAACRUlEQVQ4y52U6W7qQAyF8/6vdP9VQiwSapHY933fSQhb4pvP1BGk9Fa3IxnPMI7tc2yPMxqNpNvtCrrdbku/35fL5SLX61XO5/OX/XfieZ6s1mtxFouFTCYTmc/nMhwOVe92O9lut2qU3NsZfTgcZLPZiOu6cjweVTuz2UxqtZpm12g01GGn05FyuazGBBuPx7rHjrt6vS7NZlOm06lUKhXVOCSIA5z9fi9kigAd2MvlUp0TkA8Gg4EYGs78DyI09twB3YEbu8QQOEQjEAbcn04nFTub1rtIgO77/t3h7XZTR8ViUWGSmWVFVDLjbNmiyXK1WkU2k4i3g9gigDpcR9WBHzggEyOZqBQjeSYj7+jL7uCJf4qyvQZyC0K54BCvv1kr9yxvuQ/585aW90pL1h7t9cmh8UT0f60gCGI5XSJkey8SV7ZuxN8tuHPIDzwBmRaAJ6oOR1DAHg3kMAxjESRe4TOHcEIR4BLCrSgUCGGPzU/r/L8cxtlFC4oYhGq1qr1rI6iQH41NHvlCnuB+ZsMbAFUgsL7VDInQ6/WUSzRCiyQdP57DJw7vCcUc0sDMJo6YVWbXXh6io1utlkJkoiwojr9waJBf8ZTcY2tOgMiY0gU0PonFkJMfv3KWXBSlUChIJpNRNE9FMW6ShXklZAa/iD0a9OiPVX5VdRaPQzqdllwuJ/l8XrLZrKRSKe3fJ4e/WUkq4NHRlyOa4VcC2RBPFzAx7JPnx0eX7B1m1kYsKfYe2ltJ+9AuwEU4l0olLQzQafK/SxSZeXf5hV4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Windows Environment Variables&quot;
         title=&quot;Windows Environment Variables&quot;
-        src=&quot;/static/9f732943f80fdf146bdfd3a370301d67/5a190/environment-variables-popup.png&quot;
-        srcset=&quot;/static/9f732943f80fdf146bdfd3a370301d67/772e8/environment-variables-popup.png 200w,
-/static/9f732943f80fdf146bdfd3a370301d67/e17e5/environment-variables-popup.png 400w,
-/static/9f732943f80fdf146bdfd3a370301d67/5a190/environment-variables-popup.png 800w,
+        src=&quot;/static/9f732943f80fdf146bdfd3a370301d67/a6d36/environment-variables-popup.png&quot;
+        srcset=&quot;/static/9f732943f80fdf146bdfd3a370301d67/222b7/environment-variables-popup.png 163w,
+/static/9f732943f80fdf146bdfd3a370301d67/ff46a/environment-variables-popup.png 325w,
+/static/9f732943f80fdf146bdfd3a370301d67/a6d36/environment-variables-popup.png 650w,
 /static/9f732943f80fdf146bdfd3a370301d67/a4262/environment-variables-popup.png 814w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -755,12 +757,12 @@ game window.&lt;/p&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Before transitioning over to WSL you need to add love to your environment
 variables.
-In the windows search bar type &lt;em&gt;edit  the system environment variables&lt;/em&gt; and open
+In the windows search bar type &lt;em&gt;edit the system environment variables&lt;/em&gt; and open
 the dialog window that pops up.&lt;/p&gt;
 &lt;p&gt;If this does not work go the control panel and manually search for this window&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -771,19 +773,20 @@ the dialog window that pops up.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAADrklEQVQ4yzVUa09cVRS9P0OSijxqwUJ5qCgGrICVKmlptZIgtKbWGMVUrUaDtYVgwdqmatJEE7WhyDyYJ68ZXiLvtiBgJamGCGFed+beuUNJNYV+0SbLte/QDztz7j571ll7rX2OMvqHhpG/NAz9qWJ0OYrxZRWLsX9w07iHWW0T8/oW11v4fTsW41uY0zexwN8lM7eJm/pdXIvcMUMp61bxzoiGN4Y01PiiyOkKI7crhMcdYZwYiuH1gRj22AMocASx2x5CqTuC93/WUO6NIIffeayX3wO9UTSMxKC0TeqwzidwdS6B724YKHGFkWEJ4JNfNDPfPmfgcP9tpHTEkMn8R6ManAvrOD8VRx6BMixBHOlTWcfaWQPKi90RvNQTQZknjBJ3GMXOMNmFUEEGslfm1dHg8+HM+DCKPaq5L/XFrmRdHrspcoZQ1aOinBhKti3Ik4N4kpufjun4fjaBy9cNFDkCeNiq44zLiX8HUoClQviW/Mi1R02mh8nqW9ZdmonjWRLZaQ0i2xqAksVFWmcQr7BA2mgk6Cm29TQBd9jXMepuxf2OfPzX+xDW5qqQ74izzTV8yJpzlOvsuE79VBMj1x6E8iaFr2ILAvwY2cpJRWR7zK+ifjCB094xoPtVRjaGhz9DtW8Ddb4IpDOJnezuIAGPD4p5BLTNr+NHtlnhiSCdm6WkL61YaIjl1wRq/HF4vVew6aqDZ/oW2uf/Zt5ANUEe6QzgBIHsxLAyTorLwk4MEMdE5Kcoupy4j7n9NKXQyX3bChpdt1DZp9OoMJ6j+HLwLnYj60OsrxQDmVPEEHG4ZUI3mTaOaaZJ0s7H1OniNQPtUzGc61lFGgEeZRwbiJojJvt7SETqRar3hKHMUcNwDF/RrSaCCm3RU8bj0nQcbVMGvp6M4sLgKjKtITN/gfkvaODnrE/OLXVnvnlcg3Kcp0m7Im6OLen2IcbLjGwCp9tCKPlpFU2OFRzxx7CbNVkS1mTU+aOm/lkPxsa5uI7XmEylwMLOzW8xRESu7o1gB1l94FnDxEQYlt82cGq7A2nxKP/nYf0PlOoZMjUBn6f48iEnixE1/ao5RnJL9lLkVEsIte4VvE0NX+iJmrkC3g7RTm6WDLjcnCdoqGAo5aTbOhnn1dJR2JUUWIZUQL+ZMVBPFrs4XxksFmneHUnq3Uz9BFQ6q+Wj8iV1bZmghhe5uMp5kzbf4pDLKMjrITfAzkdArpYwEo1l/8HcyhUVtkLiMiehgxhX+Dj8D/zTrNsT/bZlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAADrklEQVQ4yzVUa09cVRS9P0OSijxqwUJ5qCgGrICVKmlptZIgtKbWGMVUrUaDtYVgwdqmatJEE7WhyDyYJ68ZXiLvtiBgJamGCGFed+beuUNJNYV+0SbLte/QDztz7j571ll7rX2OMvqHhpG/NAz9qWJ0OYrxZRWLsX9w07iHWW0T8/oW11v4fTsW41uY0zexwN8lM7eJm/pdXIvcMUMp61bxzoiGN4Y01PiiyOkKI7crhMcdYZwYiuH1gRj22AMocASx2x5CqTuC93/WUO6NIIffeayX3wO9UTSMxKC0TeqwzidwdS6B724YKHGFkWEJ4JNfNDPfPmfgcP9tpHTEkMn8R6ManAvrOD8VRx6BMixBHOlTWcfaWQPKi90RvNQTQZknjBJ3GMXOMNmFUEEGslfm1dHg8+HM+DCKPaq5L/XFrmRdHrspcoZQ1aOinBhKti3Ik4N4kpufjun4fjaBy9cNFDkCeNiq44zLiX8HUoClQviW/Mi1R02mh8nqW9ZdmonjWRLZaQ0i2xqAksVFWmcQr7BA2mgk6Cm29TQBd9jXMepuxf2OfPzX+xDW5qqQ74izzTV8yJpzlOvsuE79VBMj1x6E8iaFr2ILAvwY2cpJRWR7zK+ifjCB094xoPtVRjaGhz9DtW8Ddb4IpDOJnezuIAGPD4p5BLTNr+NHtlnhiSCdm6WkL61YaIjl1wRq/HF4vVew6aqDZ/oW2uf/Zt5ANUEe6QzgBIHsxLAyTorLwk4MEMdE5Kcoupy4j7n9NKXQyX3bChpdt1DZp9OoMJ6j+HLwLnYj60OsrxQDmVPEEHG4ZUI3mTaOaaZJ0s7H1OniNQPtUzGc61lFGgEeZRwbiJojJvt7SETqRar3hKHMUcNwDF/RrSaCCm3RU8bj0nQcbVMGvp6M4sLgKjKtITN/gfkvaODnrE/OLXVnvnlcg3Kcp0m7Im6OLen2IcbLjGwCp9tCKPlpFU2OFRzxx7CbNVkS1mTU+aOm/lkPxsa5uI7XmEylwMLOzW8xRESu7o1gB1l94FnDxEQYlt82cGq7A2nxKP/nYf0PlOoZMjUBn6f48iEnixE1/ao5RnJL9lLkVEsIte4VvE0NX+iJmrkC3g7RTm6WDLjcnCdoqGAo5aTbOhnn1dJR2JUUWIZUQL+ZMVBPFrs4XxksFmneHUnq3Uz9BFQ6q+Wj8iV1bZmghhe5uMp5kzbf4pDLKMjrITfAzkdArpYwEo1l/8HcyhUVtkLiMiehgxhX+Dj8D/zTrNsT/bZlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Löve2D Default Popup&quot;
         title=&quot;Löve2D Default Popup&quot;
-        src=&quot;/static/037497c7388e58544471ecf1ddb4baef/5a190/love-default.png&quot;
-        srcset=&quot;/static/037497c7388e58544471ecf1ddb4baef/772e8/love-default.png 200w,
-/static/037497c7388e58544471ecf1ddb4baef/e17e5/love-default.png 400w,
-/static/037497c7388e58544471ecf1ddb4baef/5a190/love-default.png 800w,
-/static/037497c7388e58544471ecf1ddb4baef/c1b63/love-default.png 1200w,
+        src=&quot;/static/037497c7388e58544471ecf1ddb4baef/a6d36/love-default.png&quot;
+        srcset=&quot;/static/037497c7388e58544471ecf1ddb4baef/222b7/love-default.png 163w,
+/static/037497c7388e58544471ecf1ddb4baef/ff46a/love-default.png 325w,
+/static/037497c7388e58544471ecf1ddb4baef/a6d36/love-default.png 650w,
+/static/037497c7388e58544471ecf1ddb4baef/e548f/love-default.png 975w,
+/static/037497c7388e58544471ecf1ddb4baef/3c492/love-default.png 1300w,
 /static/037497c7388e58544471ecf1ddb4baef/4c7dc/love-default.png 1599w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
