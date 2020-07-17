@@ -85,4 +85,3 @@ just hanging out with her friends and taking the whole affair nonchalantly. I sp
 some time talking to her before finally waking up to my alarm.
 
 As you can imagine I was quite confused and dazed by the events of the night.
-

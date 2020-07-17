@@ -34,9 +34,9 @@ use that was fast and customizable. Initially, I was between
 
 ConEMU seems to be the more feature-rich application but I found the support for
 color customization to be quite lackluster as the color schemes I tried were not
-working. Also, I found performance with apps like `vim` were quite slow. **Alacritty**
+working. Also, I found performance with apps like `bash•vim` were quite slow. **Alacritty**
 is great because it was built with performance in mind and messing with colors
-was really straight forward. 
+was really straight forward.
 
 I installed it using chocolatey
 
@@ -44,7 +44,7 @@ I installed it using chocolatey
 choco install alacritty
 ```
 
-I then edited my *alacritty.yml* file to make it open WSL by default and to mess
+I then edited my _alacritty.yml_ file to make it open WSL by default and to mess
 with the color scheme. For me this file was located in
 C:Users\{my user}\AppData\Roaming\alacritty.
 
@@ -65,7 +65,7 @@ The next thing I wanted to do was to configure Tmux to make sure that colors
 stayed the same (I'm a bit of a stickler for color schemes if you haven't noticed).
 I use the [OceanicNext](https://github.com/voronianski/oceanic-next-color-scheme)
 Color scheme, but it wasn't really showing up properly in tmux. So I had to edit my
-`.tmux.conf` file.
+`bash•.tmux.conf` file.
 
 ```tmux
 set-option -sg escape-time 10
@@ -83,11 +83,11 @@ within WSL. This isn't really perfect but I could. I downloaded an application
 called [VcXsrv](https://sourceforge.net/projects/vcxsrv/).
 
 Now to set it up to work with WSL I set the following
-variable in my `.bashrc`. Just make sure to substitute in your own IP address.
-you can find it in the command prompt with `ipconfig`
+variable in my `bash•.bashrc`. Just make sure to substitute in your own IP address.
+you can find it in the command prompt with `bash•ipconfig`
 
-**NOTE** the ip address given if you run `ifconfig` in WSL is different than your
-actual IP address, so make sure you use command *prompt*.
+**NOTE** the ip address given if you run `bash•ifconfig` in WSL is different than your
+actual IP address, so make sure you use command _prompt_.
 
 ```bash
 export DISPLAY:{MY IP ADDRESS}:0.0
@@ -110,7 +110,7 @@ if you want to try XFCE like above install
 sudo apt-get xfce-session
 ```
 
-then once the server is running just run `xfce-session` in the terminal
+then once the server is running just run `bash•xfce-session` in the terminal
 
 **NOTE** This is a notable difference between WSL 1 and 2. I don't think you
 follow the same steps with WSL 1
@@ -121,7 +121,7 @@ Once I had that setup, I was able to run things like XFCE from within windows.
 
 A neat trick of WSL is that if everything is running properly you can actually
 run windows .exe programs from within WSL. You can try this out by typing
-`explorer.exe .` This is a handy trick to open a file explorer in your WSL partition.
+`bash•explorer.exe .` This is a handy trick to open a file explorer in your WSL partition.
 
 Also handy if you want to run a windows program on files in WSL without manually
 moving them to Windows. I used this trick to develop Löve2D games from WSL
@@ -129,4 +129,3 @@ and launch them from Windows.
 
 If you want to see more of my own environment you can check out my
 [dotfiles](https://github.com/VVoruganti/dotfiles) on my Github page
-

@@ -6,51 +6,66 @@
 // FIXME manifest plugin stuff
 
 module.exports = {
-    siteMetadata: {
-        title: `Vineeth Voruganti`,
-        description: `My personal site where I write down my thoughts`,
-        author: `Vineeth Voruganti`
-    },
-    plugins: [
-        `gatsby-plugin-styled-components`,
-        `gatsby-transformer-remark`,
-        `gatsby-plugin-sharp`,
-        `gatsby-transformer-sharp`,
-        {
-            resolve: `gatsby-transformer-remark`,
+  siteMetadata: {
+    title: "Vineeth Voruganti",
+    description: "My personal site where I write down my thoughts",
+    author: "Vineeth Voruganti",
+    siteUrl: "https://www.vineeth.io",
+  },
+  plugins: [
+    "gatsby-plugin-styled-components",
+    "gatsby-transformer-remark",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-images",
             options: {
-                plugins: [
-                    {
-                        resolve: `gatsby-remark-images`,
-                        options: {
-                            maxWidth: 800,
-                        },
-                    },
-                ],
+              maxWidth: 650,
             },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
+          },
+          {
+            resolve: "gatsby-remark-vscode",
             options: {
-                path: `${__dirname}/src/posts/`
-            }
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                path: `${__dirname}/src/images/`
-            }
-        },
-        {
-            resolve: `gatsby-plugin-manifest`,
-            options: {
-                name: `Vineeth Voruganti`,
-                short_name: `Vineeth Voruganti`,
-                start_url: `/`,
-                display: `standalone`,
-            }
-        },
-        `gatsby-plugin-offline`,
-        `gatsby-plugin-react-helmet`
-    ],
+              theme: {
+                default: "Abyss",
+                dark: "Monokai dimmed",
+              },
+              inlineCode: {
+                marker: "•",
+              },
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/posts/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Vineeth Voruganti",
+        short_name: "Vineeth Voruganti",
+        start_url: "/",
+        display: "standalone",
+      },
+    },
+    "gatsby-plugin-offline",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-feed",
+    "gatsby-plugin-sitemap",
+  ],
 }
