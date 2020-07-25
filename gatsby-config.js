@@ -30,10 +30,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-vscode",
             options: {
-              theme: {
-                default: "Abyss",
-                dark: "Monokai dimmed",
-              },
+              theme: 'Default Dark+',
+              dark: 'Default Dark+',
               inlineCode: {
                 marker: "•",
               },

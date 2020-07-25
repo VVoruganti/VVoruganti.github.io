@@ -67,7 +67,7 @@ I use the [OceanicNext](https://github.com/voronianski/oceanic-next-color-scheme
 Color scheme, but it wasn't really showing up properly in tmux. So I had to edit my
 `bash•.tmux.conf` file.
 
-```tmux
+```bash
 set-option -sg escape-time 10
 set-option -g default-terminal "tmux-256color"
 set-option -sa terminal-overrides ",*256col*:RGB"

@@ -18,8 +18,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className={styles.nav}>
-        <PageLink to="/aboutme">About</PageLink>
-        <PageLink to="/">Blog </PageLink>
+        <PageLink to="/">Thoughts</PageLink>
+        <PageLink to="/about">About</PageLink>
       </nav>
     )
   }

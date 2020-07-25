@@ -45,9 +45,9 @@ to transition to WSL.
 
 Open up WSL in your desired method
 
-- Typing WSL into run.exe
-- Typing `bash•wsl` in command prompt
-- Using another terminal emulator
+* Typing WSL into run.exe
+* Typing `bash•wsl` in command prompt
+* Using another terminal emulator
 
 Now in WSL2, you can run windows _exe's_ by typing in the name of the entire exe.
 However, it needs to be on your path for it to work. An example of this is to type
