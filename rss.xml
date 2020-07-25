@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vineeth Voruganti]]></title><description><![CDATA[My personal site where I write down my thoughts]]></description><link>https://www.vineeth.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 02:51:15 GMT</lastBuildDate><item><title><![CDATA[☁ Dream Journal #3 | Demons and Karaoke]]></title><description><![CDATA[This dream was unique because it was stylized differently. Half of the time it was
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vineeth Voruganti]]></title><description><![CDATA[My personal site where I write down my thoughts]]></description><link>https://www.vineeth.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Jul 2020 02:55:14 GMT</lastBuildDate><item><title><![CDATA[☁ Dream Journal #3 | Demons and Karaoke]]></title><description><![CDATA[This dream was unique because it was stylized differently. Half of the time it was
 like real life, but the other half it was as if I was in…]]></description><link>https://www.vineeth.io/dream-journal-3/</link><guid isPermaLink="false">https://www.vineeth.io/dream-journal-3/</guid><pubDate>Fri, 10 Jul 2020 04:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This dream was unique because it was stylized differently. Half of the time it was
 like real life, but the other half it was as if I was in a cartoon.&lt;/p&gt;
 &lt;h2&gt;Dream&lt;/h2&gt;
@@ -447,16 +447,16 @@ use that was fast and customizable. Initially, I was between
 &lt;a href=&quot;https://conemu.github.io/&quot;&gt;ConEMU&lt;/a&gt; and &lt;a href=&quot;https://github.com/alacritty/alacritty&quot;&gt;Alacritty&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;ConEMU seems to be the more feature-rich application but I found the support for
 color customization to be quite lackluster as the color schemes I tried were not
-working. Also, I found performance with apps like &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;vim&lt;/span&gt;&lt;/code&gt; were quite slow. &lt;strong&gt;Alacritty&lt;/strong&gt;
+working. Also, I found performance with apps like &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;vim&lt;/span&gt;&lt;/code&gt; were quite slow. &lt;strong&gt;Alacritty&lt;/strong&gt;
 is great because it was built with performance in mind and messing with colors
 was really straight forward.&lt;/p&gt;
 &lt;p&gt;I installed it using chocolatey&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;choco install alacritty&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;choco install alacritty&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I then edited my &lt;em&gt;alacritty.yml&lt;/em&gt; file to make it open WSL by default and to mess
 with the color scheme. For me this file was located in
 C:Users{my user}\AppData\Roaming\alacritty.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;yaml&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-3&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-3&quot;&gt;program&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-11 grvsc-tJ07fR-8&quot;&gt;wsl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;yaml&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;program&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;: &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;wsl&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Another one I messed around with was the
 &lt;a href=&quot;https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701&quot;&gt;Windows terminal&lt;/a&gt;
 which was still in beta and experimental at the time. It had pretty could
@@ -467,23 +467,23 @@ or with managing nice color schemes.&lt;/p&gt;
 stayed the same (I&apos;m a bit of a stickler for color schemes if you haven&apos;t noticed).
 I use the &lt;a href=&quot;https://github.com/voronianski/oceanic-next-color-scheme&quot;&gt;OceanicNext&lt;/a&gt;
 Color scheme, but it wasn&apos;t really showing up properly in tmux. So I had to edit my
-&lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;1&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;.tmux.conf&lt;/span&gt;&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;tmux&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;set-option -sg escape-time 10&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;set-option -g default-terminal &amp;quot;tmux-256color&amp;quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;set-option -sa terminal-overrides &amp;quot;,*256col*:RGB&amp;quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;set-option -ga terminal-overrides &amp;quot;,*256col*:Tc&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;1&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;.tmux.conf&lt;/span&gt;&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;set-option -sg escape-time 10&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;set-option -g default-terminal &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;tmux-256color&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;set-option -sa terminal-overrides &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;,*256col*:RGB&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;set-option -ga terminal-overrides &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;,*256col*:Tc&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;After that my tmux looked just as beautiful as before.&lt;/p&gt;
 &lt;h2&gt;Xserver&lt;/h2&gt;
 &lt;p&gt;Finally, I wanted to set up an Xserver so that I could run gui applications from
 within WSL. This isn&apos;t really perfect but I could. I downloaded an application
 called &lt;a href=&quot;https://sourceforge.net/projects/vcxsrv/&quot;&gt;VcXsrv&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now to set it up to work with WSL I set the following
-variable in my &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;2&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;.bashrc&lt;/span&gt;&lt;/code&gt;. Just make sure to substitute in your own IP address.
-you can find it in the command prompt with &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;ipconfig&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; the ip address given if you run &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;ifconfig&lt;/span&gt;&lt;/code&gt; in WSL is different than your
+variable in my &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;2&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;.bashrc&lt;/span&gt;&lt;/code&gt;. Just make sure to substitute in your own IP address.
+you can find it in the command prompt with &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;ipconfig&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; the ip address given if you run &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;ifconfig&lt;/span&gt;&lt;/code&gt; in WSL is different than your
 actual IP address, so make sure you use command &lt;em&gt;prompt&lt;/em&gt;.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-11&quot;&gt;export&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; DISPLAY:{MY IP ADDRESS}:0.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-11&quot;&gt;export&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; LIBGL_ALWAYS_INDIRECT=1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;export&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; DISPLAY:{MY IP ADDRESS}:0.0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;export&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; LIBGL_ALWAYS_INDIRECT=1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;once you reload bash you can startup up VcXsrv and follow the prompt on the first
 2 windows. On the third window make sure you check Disable Access Control&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -552,15 +552,15 @@ like XFCE and it will appear on the screen.&lt;/p&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;if you want to try XFCE like above install&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;sudo apt-get xfce-session&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;then once the server is running just run &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;5&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;xfce-session&lt;/span&gt;&lt;/code&gt; in the terminal&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;sudo apt-get xfce-session&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;then once the server is running just run &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;5&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;xfce-session&lt;/span&gt;&lt;/code&gt; in the terminal&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; This is a notable difference between WSL 1 and 2. I don&apos;t think you
 follow the same steps with WSL 1&lt;/p&gt;
 &lt;p&gt;Once I had that setup, I was able to run things like XFCE from within windows.&lt;/p&gt;
 &lt;h2&gt;Running Windows Applications&lt;/h2&gt;
 &lt;p&gt;A neat trick of WSL is that if everything is running properly you can actually
 run windows .exe programs from within WSL. You can try this out by typing
-&lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;6&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;explorer.exe &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-15 grvsc-tJ07fR-11&quot;&gt;.&lt;/span&gt;&lt;/code&gt; This is a handy trick to open a file explorer in your WSL partition.&lt;/p&gt;
+&lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;6&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;explorer.exe &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;.&lt;/span&gt;&lt;/code&gt; This is a handy trick to open a file explorer in your WSL partition.&lt;/p&gt;
 &lt;p&gt;Also handy if you want to run a windows program on files in WSL without manually
 moving them to Windows. I used this trick to develop Löve2D games from WSL
 and launch them from Windows.&lt;/p&gt;
@@ -655,30 +655,17 @@ and launch them from Windows.&lt;/p&gt;
     opacity: 0.7;
   }
   
-  .abyss { background-color: #000c18; }
-  .abyss .grvsc-t9ljLd-1 { color: #6688CC; }
-  .abyss .grvsc-t9ljLd-7 { color: #225588; }
-  .abyss .grvsc-t9ljLd-11 { color: #22AA44; }
-  .abyss .grvsc-t9ljLd-15 { color: #9966B8; }
-  .abyss .grvsc-line-highlighted::before {
+  .default-dark {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+  }
+  .default-dark .mtk1 { color: #D4D4D4; }
+  .default-dark .mtk4 { color: #569CD6; }
+  .default-dark .mtk8 { color: #CE9178; }
+  .default-dark .mtk11 { color: #DCDCAA; }
+  .default-dark .grvsc-line-highlighted::before {
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-  }
-  
-  /* Monokai dimmed */
-  @media (prefers-color-scheme: dark) {
-    .grvsc-mm-tJ07fR {
-      background-color: #1e1e1e;
-      color: #c5c8c6;
-    }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-1 { color: #C5C8C6FF; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-3 { color: #6089B4; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-8 { color: #9AA83A; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-11 { color: #9872A2; }
-    .grvsc-mm-tJ07fR .grvsc-line-highlighted::before {
-      background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
-      box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-    }
   }
 &lt;/style&gt;</content:encoded></item><item><title><![CDATA[💜 Löve2D on WSL]]></title><description><![CDATA[Setting up Löve2D on WSL is fairly simple and similar to the set up on
 windows by itself. This guide assumes that you already have WSL…]]></description><link>https://www.vineeth.io/love2d-on-wsl/</link><guid isPermaLink="false">https://www.vineeth.io/love2d-on-wsl/</guid><pubDate>Mon, 04 May 2020 04:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Setting up Löve2D on WSL is fairly simple and similar to the set up on
@@ -795,30 +782,30 @@ the dialog window that pops up.&lt;/p&gt;
 &lt;p&gt;From here click on environment variables and add the &lt;em&gt;.exe&lt;/em&gt; for Löve2D to your path.
 For me this was located at &lt;strong&gt;C:/Program Files/LOVE&lt;/strong&gt; but this could vary depending
 on what options you picked during installation&lt;/p&gt;
-&lt;p&gt;You can test this by opening up command prompt and typing &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;love&lt;/span&gt;&lt;/code&gt; into the shell.
+&lt;p&gt;You can test this by opening up command prompt and typing &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;love&lt;/span&gt;&lt;/code&gt; into the shell.
 This should load the balloon GIF shown above. Once this is working you are ready
 to transition to WSL.&lt;/p&gt;
 &lt;h2&gt;Setting it up on WSL&lt;/h2&gt;
 &lt;p&gt;Open up WSL in your desired method&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Typing WSL into run.exe&lt;/li&gt;
-&lt;li&gt;Typing &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;1&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;wsl&lt;/span&gt;&lt;/code&gt; in command prompt&lt;/li&gt;
+&lt;li&gt;Typing &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;1&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;wsl&lt;/span&gt;&lt;/code&gt; in command prompt&lt;/li&gt;
 &lt;li&gt;Using another terminal emulator&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Now in WSL2, you can run windows &lt;em&gt;exe&apos;s&lt;/em&gt; by typing in the name of the entire exe.
 However, it needs to be on your path for it to work. An example of this is to type
-&lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;2&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;explorer.exe&lt;/span&gt;&lt;/code&gt; to open up the windows file explorer&lt;/p&gt;
-&lt;p&gt;Typing &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;explorer.exe &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-15 grvsc-tJ07fR-11&quot;&gt;.&lt;/span&gt;&lt;/code&gt; in WSL will open the windows file explorer in the WSL
+&lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;2&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;explorer.exe&lt;/span&gt;&lt;/code&gt; to open up the windows file explorer&lt;/p&gt;
+&lt;p&gt;Typing &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;3&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;explorer.exe &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;.&lt;/span&gt;&lt;/code&gt; in WSL will open the windows file explorer in the WSL
 file system&lt;/p&gt;
-&lt;p&gt;So from WSL, you can type &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;love.exe&lt;/span&gt;&lt;/code&gt; to run Löve2D from within WSL. To make the
+&lt;p&gt;So from WSL, you can type &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;4&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;love.exe&lt;/span&gt;&lt;/code&gt; to run Löve2D from within WSL. To make the
 development process similar to Linux/Unix you can make an alias to it. Personally,
-I don&apos;t like typing out the &lt;em&gt;.exe&lt;/em&gt; every time so I have an alias for &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;5&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;love&lt;/span&gt;&lt;/code&gt;. The below
+I don&apos;t like typing out the &lt;em&gt;.exe&lt;/em&gt; every time so I have an alias for &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;5&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;love&lt;/span&gt;&lt;/code&gt;. The below
 script will add the alias to your bashrc and source it.&lt;/p&gt;
-&lt;pre class=&quot;grvsc-container abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-15 grvsc-tJ07fR-11&quot;&gt;echo&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-11 grvsc-tJ07fR-8&quot;&gt;&amp;quot;alias love=&amp;#39;love.exe&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-15&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-15&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;/.bashrc&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-15 grvsc-tJ07fR-11&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-7 grvsc-tJ07fR-15&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;/.bashrc&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;echo&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;alias love=&amp;#39;love.exe&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; ~/.bashrc&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you are using a different shell or would prefer to put your aliases somewhere
 else you can write it in manually.&lt;/p&gt;
-&lt;p&gt;Now you should be able to simply type &lt;code class=&quot;abyss grvsc-mm-tJ07fR&quot; data-language=&quot;bash&quot; data-index=&quot;6&quot;&gt;&lt;span class=&quot;grvsc-t9ljLd-1 grvsc-tJ07fR-1&quot;&gt;love&lt;/span&gt;&lt;/code&gt; in your terminal to run Löve2D. You
+&lt;p&gt;Now you should be able to simply type &lt;code class=&quot;default-dark&quot; data-language=&quot;bash&quot; data-index=&quot;6&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;love&lt;/span&gt;&lt;/code&gt; in your terminal to run Löve2D. You
 are ready to develop and prototype your own games!! 🎮&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -909,29 +896,15 @@ are ready to develop and prototype your own games!! 🎮&lt;/p&gt;
     opacity: 0.7;
   }
   
-  .abyss { background-color: #000c18; }
-  .abyss .grvsc-t9ljLd-1 { color: #6688CC; }
-  .abyss .grvsc-t9ljLd-15 { color: #9966B8; }
-  .abyss .grvsc-t9ljLd-11 { color: #22AA44; }
-  .abyss .grvsc-t9ljLd-7 { color: #225588; }
-  .abyss .grvsc-line-highlighted::before {
+  .default-dark {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+  }
+  .default-dark .mtk1 { color: #D4D4D4; }
+  .default-dark .mtk11 { color: #DCDCAA; }
+  .default-dark .mtk8 { color: #CE9178; }
+  .default-dark .grvsc-line-highlighted::before {
     background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
     box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-  }
-  
-  /* Monokai dimmed */
-  @media (prefers-color-scheme: dark) {
-    .grvsc-mm-tJ07fR {
-      background-color: #1e1e1e;
-      color: #c5c8c6;
-    }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-1 { color: #C5C8C6FF; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-11 { color: #9872A2; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-8 { color: #9AA83A; }
-    .grvsc-mm-tJ07fR .grvsc-tJ07fR-15 { color: #676867; }
-    .grvsc-mm-tJ07fR .grvsc-line-highlighted::before {
-      background-color: var(--grvsc-line-highlighted-background-color, rgba(255, 255, 255, 0.1));
-      box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(255, 255, 255, 0.5));
-    }
   }
 &lt;/style&gt;</content:encoded></item></channel></rss>
