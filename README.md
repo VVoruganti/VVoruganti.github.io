@@ -23,3 +23,4 @@ is gatsby, and gh-pages is the hosted site
 [thesephist](https://thesephist.com/)
 [Notion](notion.so)
 [Anime JS Letters](https://tobiasahlin.com/moving-letters/)
+[Cuchi](https://cuchi.me/posts/go-vs-rust)
